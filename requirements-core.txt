@@ -1,0 +1,10 @@
+# Core Python dependencies (pip-installed on host)
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+tqdm>=4.62.0
+plotly>=5.0.0
+biopython>=1.79
+pytest>=6.0.0
+pytest-cov>=3.0.0

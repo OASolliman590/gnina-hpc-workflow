@@ -1,0 +1,10 @@
+name: gnina-auto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit
+  - openbabel
+  - meeko
+  - pdb2pqr
+  - pip

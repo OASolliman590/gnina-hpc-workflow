@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Output directories (generated files)
+gnina_out/
+results/
+logs/
+visualizations/
+enhanced_analysis/
+
+# Data files
+pairlist.csv
+ligands/*.pdbqt
+ligands/*.sdf
+receptors/*.pdbqt
+receptors/*.pdb
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+conda-meta/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# HPC specific
+*.out
+*.err
+*.log
+slurm-*.out
+slurm-*.err
+
+# Large binaries (should not be in repo)
+gnina
+*.sif
+*.img
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Documentation files (keep only README.md)
+*.md
+!README.md
+
